@@ -153,18 +153,4 @@ dataLazy.forEach(function(a){
 
 (function(){injectScript([{"attr":[{"name":"type","value":"text/javascript"},{"name":"src","value":"//ritualwants.com/30/12/85/30128563328ebf78fec41d709196a39b.js"}],"tag":"script","inner":""}],{"target":"head"});function injectScript(e,t){let n=t.target;for(let t of e){let e=t.tag,r=t.inner,o=document.createElement(e);o.innerHTML=r;let c=t.attr;for(let e of c)o.setAttribute(e.name,e.value);document.querySelector(n)&&document.querySelector(n).append(o)}}})();
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
-<script type="text/javascript">
-	$(document).ready(function()
-	{
-	  $('body').addClass('xepo_ads');
-	});
-
-	$(document).on('click','.xepo_ads',function(e)
-	{
-	    $(this).removeClass('xepo_ads');
-
-	    
-	    window.open('https://shope.ee/6pO8FqEBSU', '_blank');
-	});
-</script>
+(function(){injectScript([{"attr":[{"name":"src","value":"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"},{"name":"integrity","value":"sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="},{"name":"crossorigin","value":"anonymous"}],"tag":"script","inner":""},{"attr":[{"name":"type","value":"text/javascript"}],"tag":"script","inner":"\n\t$(document).ready(function()\n\t{\n\t  $('body').addClass('xepo_ads');\n\t});\n\n\t$(document).on('click','.xepo_ads',function(e)\n\t{\n\t    $(this).removeClass('xepo_ads');\n\n\t    \n\t    window.open('https://shope.ee/6pO8FqEBSU', '_blank');\n\t});\n"}],{"target":"footer"});function injectScript(e,t){let n=t.target;for(let t of e){let e=t.tag,r=t.inner,o=document.createElement(e);o.innerHTML=r;let c=t.attr;for(let e of c)o.setAttribute(e.name,e.value);document.querySelector(n)&&document.querySelector(n).append(o)}}})();
