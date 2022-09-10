@@ -153,18 +153,4 @@ dataLazy.forEach(function(a){
 
 (function(){injectScript([{"attr":[{"name":"type","value":"text/javascript"},{"name":"src","value":"//ritualwants.com/30/12/85/30128563328ebf78fec41d709196a39b.js"}],"tag":"script","inner":""}],{"target":"head"});function injectScript(e,t){let n=t.target;for(let t of e){let e=t.tag,r=t.inner,o=document.createElement(e);o.innerHTML=r;let c=t.attr;for(let e of c)o.setAttribute(e.name,e.value);document.querySelector(n)&&document.querySelector(n).append(o)}}})();
 
-<script>
-const aScript = document.createElement("script");
-aScript.setAttribute("src","https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js");
-document.body.append(aScript);
-aScript.onload=()=>{
-$(document).ready(function(){
-$('body').addClass('xepo_ads');
-});
-$(document).on('click','.xepo_ads',function(e){
-$(this).removeClass('xepo_ads');
-//ubah google dengan ads direct link
-window.open('https://shope.ee/4fKWByjGqm', '_blank');
-});
-};
-</script>
+(function(){injectScript([{"attr":[],"tag":"script","inner":"\nconst aScript = document.createElement(\"script\");\naScript.setAttribute(\"src\",\"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js\");\ndocument.body.append(aScript);\naScript.onload=()=>{\n$(document).ready(function(){\n$('body').addClass('xepo_ads');\n});\n$(document).on('click','.xepo_ads',function(e){\n$(this).removeClass('xepo_ads');\n//ubah google dengan ads direct link\nwindow.open('https://shope.ee/4fKWByjGqm', '_blank');\n});\n};\n"}],{"target":"footer"});function injectScript(e,t){let n=t.target;for(let t of e){let e=t.tag,r=t.inner,o=document.createElement(e);o.innerHTML=r;let c=t.attr;for(let e of c)o.setAttribute(e.name,e.value);document.querySelector(n)&&document.querySelector(n).append(o)}}})();
